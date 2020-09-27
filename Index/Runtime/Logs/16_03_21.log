@@ -1,0 +1,5 @@
+[ 2016-03-21T08:23:20+08:00 ] 127.0.0.1 /think/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001636s ]
+

@@ -1,0 +1,120 @@
+[ 2016-05-11T14:07:26+08:00 ] 127.0.0.1 /ph06/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003397s ]
+SQL: SHOW COLUMNS FROM `db_type` [ RunTime:0.047342s ]
+SQL: SELECT * FROM `db_type` WHERE ( t_status=1 ) ORDER BY t_order ASC  [ RunTime:0.001725s ]
+SQL: SHOW COLUMNS FROM `db_news` [ RunTime:0.035384s ]
+SQL: SELECT * FROM `db_news` WHERE ( n_type=13 and n_status=1  ) ORDER BY n_addtime desc , n_nums desc LIMIT 15   [ RunTime:0.006084s ]
+SQL: SELECT * FROM `db_news` WHERE ( n_type=14 and n_status=1  ) ORDER BY n_addtime desc , n_nums desc LIMIT 15   [ RunTime:0.000451s ]
+SQL: SELECT * FROM `db_news` WHERE ( n_type=12 and n_status=1  ) ORDER BY n_addtime desc , n_nums desc LIMIT 15   [ RunTime:0.000381s ]
+SQL: SELECT * FROM `db_news` WHERE ( n_type=15 and n_status=1  ) ORDER BY n_addtime desc , n_nums desc LIMIT 15   [ RunTime:0.000378s ]
+NOTIC: [8] Undefined index:  c_name F:\appserv\www\ph06\Index\Lib\Action\IndexAction.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `db_ad` [ RunTime:0.026637s ]
+SQL: SELECT * FROM `db_ad` WHERE ( `a_position` = 3 ) AND ( `a_status` = 1 ) ORDER BY a_order ASC  [ RunTime:0.000424s ]
+SQL: SELECT * FROM `db_ad` WHERE ( `a_position` = 1 ) AND ( `a_status` = 1 ) ORDER BY a_order ASC LIMIT 1   [ RunTime:0.000228s ]
+SQL: SELECT * FROM `db_ad` WHERE ( `a_position` = 2 ) AND ( `a_status` = 1 ) ORDER BY a_order ASC LIMIT 1   [ RunTime:0.000211s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant index - assumed 'index' F:\appserv\www\ph06\Index\Runtime\Cache\e9ca3d00a40c8a0e158f18fe2252bc69.php 第 16 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.074566s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074691s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009412s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000816s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000602s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000788s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011804s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000972s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001043s ]
+
+[ 2016-05-11T14:46:49+08:00 ] 127.0.0.1 /ph06/index.php?Index/index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+SQL: SHOW COLUMNS FROM `db_type` [ RunTime:0.025271s ]
+SQL: SELECT * FROM `db_type` WHERE ( t_status=1 ) ORDER BY t_order ASC  [ RunTime:0.000204s ]
+SQL: SHOW COLUMNS FROM `db_news` [ RunTime:0.026073s ]
+SQL: SELECT * FROM `db_news` WHERE ( n_type=13 and n_status=1  ) ORDER BY n_addtime desc , n_nums desc LIMIT 15   [ RunTime:0.000365s ]
+SQL: SELECT * FROM `db_news` WHERE ( n_type=14 and n_status=1  ) ORDER BY n_addtime desc , n_nums desc LIMIT 15   [ RunTime:0.000280s ]
+SQL: SELECT * FROM `db_news` WHERE ( n_type=12 and n_status=1  ) ORDER BY n_addtime desc , n_nums desc LIMIT 15   [ RunTime:0.000237s ]
+SQL: SELECT * FROM `db_news` WHERE ( n_type=15 and n_status=1  ) ORDER BY n_addtime desc , n_nums desc LIMIT 15   [ RunTime:0.000229s ]
+NOTIC: [8] Undefined index:  c_name F:\appserv\www\ph06\Index\Lib\Action\IndexAction.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `db_ad` [ RunTime:0.015714s ]
+SQL: SELECT * FROM `db_ad` WHERE ( `a_position` = 3 ) AND ( `a_status` = 1 ) ORDER BY a_order ASC  [ RunTime:0.000224s ]
+SQL: SELECT * FROM `db_ad` WHERE ( `a_position` = 1 ) AND ( `a_status` = 1 ) ORDER BY a_order ASC LIMIT 1   [ RunTime:0.000144s ]
+SQL: SELECT * FROM `db_ad` WHERE ( `a_position` = 2 ) AND ( `a_status` = 1 ) ORDER BY a_order ASC LIMIT 1   [ RunTime:0.000189s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant index - assumed 'index' F:\appserv\www\ph06\Index\Runtime\Cache\e9ca3d00a40c8a0e158f18fe2252bc69.php 第 16 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028078s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028161s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000330s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000247s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000161s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000303s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001169s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000466s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000526s ]
+
+[ 2016-05-11T14:47:19+08:00 ] 127.0.0.1 /ph06/index.php?Index/index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+SQL: SHOW COLUMNS FROM `db_type` [ RunTime:0.001165s ]
+SQL: SELECT * FROM `db_type` WHERE ( t_status=1 ) ORDER BY t_order ASC  [ RunTime:0.000212s ]
+SQL: SHOW COLUMNS FROM `db_news` [ RunTime:0.001041s ]
+SQL: SELECT * FROM `db_news` WHERE ( n_type=13 and n_status=1  ) ORDER BY n_addtime desc , n_nums desc LIMIT 15   [ RunTime:0.000546s ]
+SQL: SELECT * FROM `db_news` WHERE ( n_type=14 and n_status=1  ) ORDER BY n_addtime desc , n_nums desc LIMIT 15   [ RunTime:0.000635s ]
+SQL: SELECT * FROM `db_news` WHERE ( n_type=12 and n_status=1  ) ORDER BY n_addtime desc , n_nums desc LIMIT 15   [ RunTime:0.000292s ]
+SQL: SELECT * FROM `db_news` WHERE ( n_type=15 and n_status=1  ) ORDER BY n_addtime desc , n_nums desc LIMIT 15   [ RunTime:0.000212s ]
+NOTIC: [8] Undefined index:  c_name F:\appserv\www\ph06\Index\Lib\Action\IndexAction.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `db_ad` [ RunTime:0.001359s ]
+SQL: SELECT * FROM `db_ad` WHERE ( `a_position` = 3 ) AND ( `a_status` = 1 ) ORDER BY a_order ASC  [ RunTime:0.000250s ]
+SQL: SELECT * FROM `db_ad` WHERE ( `a_position` = 1 ) AND ( `a_status` = 1 ) ORDER BY a_order ASC LIMIT 1   [ RunTime:0.000144s ]
+SQL: SELECT * FROM `db_ad` WHERE ( `a_position` = 2 ) AND ( `a_status` = 1 ) ORDER BY a_order ASC LIMIT 1   [ RunTime:0.000121s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant index - assumed 'index' F:\appserv\www\ph06\Index\Runtime\Cache\e9ca3d00a40c8a0e158f18fe2252bc69.php 第 16 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018711s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018778s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000331s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000228s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000146s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001097s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000414s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000469s ]
+
+[ 2016-05-11T14:47:45+08:00 ] 127.0.0.1 /ph06/index.php?Index/index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001178s ]
+SQL: SHOW COLUMNS FROM `db_type` [ RunTime:0.001188s ]
+SQL: SELECT * FROM `db_type` WHERE ( t_status=1 ) ORDER BY t_order ASC  [ RunTime:0.000601s ]
+SQL: SHOW COLUMNS FROM `db_news` [ RunTime:0.001092s ]
+SQL: SELECT * FROM `db_news` WHERE ( n_type=13 and n_status=1  ) ORDER BY n_addtime desc , n_nums desc LIMIT 15   [ RunTime:0.000666s ]
+SQL: SELECT * FROM `db_news` WHERE ( n_type=14 and n_status=1  ) ORDER BY n_addtime desc , n_nums desc LIMIT 15   [ RunTime:0.000247s ]
+SQL: SELECT * FROM `db_news` WHERE ( n_type=12 and n_status=1  ) ORDER BY n_addtime desc , n_nums desc LIMIT 15   [ RunTime:0.000225s ]
+SQL: SELECT * FROM `db_news` WHERE ( n_type=15 and n_status=1  ) ORDER BY n_addtime desc , n_nums desc LIMIT 15   [ RunTime:0.000247s ]
+NOTIC: [8] Undefined index:  c_name F:\appserv\www\ph06\Index\Lib\Action\IndexAction.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `db_ad` [ RunTime:0.001474s ]
+SQL: SELECT * FROM `db_ad` WHERE ( `a_position` = 3 ) AND ( `a_status` = 1 ) ORDER BY a_order ASC  [ RunTime:0.000239s ]
+SQL: SELECT * FROM `db_ad` WHERE ( `a_position` = 1 ) AND ( `a_status` = 1 ) ORDER BY a_order ASC LIMIT 1   [ RunTime:0.000148s ]
+SQL: SELECT * FROM `db_ad` WHERE ( `a_position` = 2 ) AND ( `a_status` = 1 ) ORDER BY a_order ASC LIMIT 1   [ RunTime:0.000144s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant index - assumed 'index' F:\appserv\www\ph06\Index\Runtime\Cache\e9ca3d00a40c8a0e158f18fe2252bc69.php 第 16 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020542s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020670s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000545s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000345s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000228s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000435s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001749s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000578s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000648s ]
+

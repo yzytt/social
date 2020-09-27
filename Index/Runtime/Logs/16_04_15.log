@@ -1,0 +1,116 @@
+[ 2016-04-15T16:27:18+08:00 ] 127.0.0.1 /think/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001766s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001874s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001307s ]
+SQL: SHOW COLUMNS FROM `db_type` [ RunTime:0.064496s ]
+SQL: SELECT * FROM `db_type` WHERE ( t_status=1 ) ORDER BY t_order ASC  [ RunTime:0.007846s ]
+SQL: SHOW COLUMNS FROM `db_news` [ RunTime:0.047526s ]
+SQL: SELECT * FROM `db_news` WHERE ( n_type=13 and n_status=1 and n_position=2 ) ORDER BY n_addtime desc , n_nums desc LIMIT 15   [ RunTime:0.018849s ]
+SQL: SELECT * FROM `db_news` WHERE ( n_type=14 and n_status=1 and n_position=2 ) ORDER BY n_addtime desc , n_nums desc LIMIT 15   [ RunTime:0.000952s ]
+SQL: SELECT * FROM `db_news` WHERE ( n_type=12 and n_status=1 and n_position=2 ) ORDER BY n_addtime desc , n_nums desc LIMIT 15   [ RunTime:0.000996s ]
+SQL: SELECT * FROM `db_news` WHERE ( n_type=15 and n_status=1 and n_position=2 ) ORDER BY n_addtime desc , n_nums desc LIMIT 15   [ RunTime:0.000826s ]
+NOTIC: [8] Undefined index:  c_name F:\appserv\www\think\Index\Lib\Action\IndexAction.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant index - assumed 'index' F:\appserv\www\think\Index\Runtime\Cache\e9ca3d00a40c8a0e158f18fe2252bc69.php 第 11 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.139724s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.139922s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000966s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000805s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000643s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003750s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002740s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002833s ]
+
+[ 2016-04-15T16:27:21+08:00 ] 127.0.0.1 /think/index.php/index/newsList/t_id/13
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000622s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+SQL: SHOW COLUMNS FROM `db_type` [ RunTime:0.002331s ]
+SQL: SELECT `t_name` FROM `db_type` WHERE ( t_id ='13' ) LIMIT 1   [ RunTime:0.026495s ]
+SQL: SELECT * FROM `db_type` WHERE ( t_status=1 ) ORDER BY t_order ASC  [ RunTime:0.000305s ]
+SQL: SHOW COLUMNS FROM `db_news` [ RunTime:0.002541s ]
+SQL: SELECT COUNT(n_id) AS tp_count FROM `db_news` WHERE ( `n_type` = '13' ) AND ( `n_status` = 1 ) LIMIT 1   [ RunTime:0.028415s ]
+SQL: SELECT * FROM `db_news` WHERE ( `n_type` = '13' ) AND ( `n_status` = 1 ) ORDER BY n_addtime desc , n_nums desc LIMIT 0,10   [ RunTime:0.000385s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant index - assumed 'index' F:\appserv\www\think\Index\Runtime\Cache\1a4e538a4f58ac229c3315362a246230.php 第 12 行.
+NOTIC: [8] Undefined variable: c_name F:\appserv\www\think\Index\Runtime\Cache\1a4e538a4f58ac229c3315362a246230.php 第 19 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' F:\appserv\www\think\Index\Runtime\Cache\1a4e538a4f58ac229c3315362a246230.php 第 44 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.035673s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035746s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000270s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000222s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000180s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000319s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001119s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000479s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000525s ]
+
+[ 2016-04-15T16:28:37+08:00 ] 127.0.0.1 /think/index.php/index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000810s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000903s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+SQL: SHOW COLUMNS FROM `db_type` [ RunTime:0.001946s ]
+SQL: SELECT * FROM `db_type` WHERE ( t_status=1 ) ORDER BY t_order ASC  [ RunTime:0.000371s ]
+SQL: SHOW COLUMNS FROM `db_news` [ RunTime:0.001378s ]
+SQL: SELECT * FROM `db_news` WHERE ( n_type=13 and n_status=1 and n_position=2 ) ORDER BY n_addtime desc , n_nums desc LIMIT 15   [ RunTime:0.000489s ]
+SQL: SELECT * FROM `db_news` WHERE ( n_type=14 and n_status=1 and n_position=2 ) ORDER BY n_addtime desc , n_nums desc LIMIT 15   [ RunTime:0.000221s ]
+SQL: SELECT * FROM `db_news` WHERE ( n_type=12 and n_status=1 and n_position=2 ) ORDER BY n_addtime desc , n_nums desc LIMIT 15   [ RunTime:0.000209s ]
+SQL: SELECT * FROM `db_news` WHERE ( n_type=15 and n_status=1 and n_position=2 ) ORDER BY n_addtime desc , n_nums desc LIMIT 15   [ RunTime:0.000204s ]
+NOTIC: [8] Undefined index:  c_name F:\appserv\www\think\Index\Lib\Action\IndexAction.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant index - assumed 'index' F:\appserv\www\think\Index\Runtime\Cache\e9ca3d00a40c8a0e158f18fe2252bc69.php 第 11 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014361s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014436s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000301s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000228s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000142s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000268s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001079s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000482s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000543s ]
+
+[ 2016-04-15T16:28:39+08:00 ] 127.0.0.1 /think/index.php/index/newsList/t_id/14
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000844s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001076s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000935s ]
+SQL: SHOW COLUMNS FROM `db_type` [ RunTime:0.004787s ]
+SQL: SELECT `t_name` FROM `db_type` WHERE ( t_id ='14' ) LIMIT 1   [ RunTime:0.026298s ]
+SQL: SELECT * FROM `db_type` WHERE ( t_status=1 ) ORDER BY t_order ASC  [ RunTime:0.000673s ]
+SQL: SHOW COLUMNS FROM `db_news` [ RunTime:0.005918s ]
+SQL: SELECT COUNT(n_id) AS tp_count FROM `db_news` WHERE ( `n_type` = '14' ) AND ( `n_status` = 1 ) LIMIT 1   [ RunTime:0.000585s ]
+SQL: SELECT * FROM `db_news` WHERE ( `n_type` = '14' ) AND ( `n_status` = 1 ) ORDER BY n_addtime desc , n_nums desc LIMIT 0,10   [ RunTime:0.000384s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant index - assumed 'index' F:\appserv\www\think\Index\Runtime\Cache\1a4e538a4f58ac229c3315362a246230.php 第 12 行.
+NOTIC: [8] Undefined variable: c_name F:\appserv\www\think\Index\Runtime\Cache\1a4e538a4f58ac229c3315362a246230.php 第 19 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' F:\appserv\www\think\Index\Runtime\Cache\1a4e538a4f58ac229c3315362a246230.php 第 44 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009680s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009788s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000847s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000972s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000449s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000520s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003158s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000908s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001094s ]
+

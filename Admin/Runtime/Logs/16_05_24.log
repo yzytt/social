@@ -1,0 +1,319 @@
+[ 2016-05-24T10:09:54+08:00 ] 127.0.0.1 /ph06/admin.php/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004694s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004781s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+
+[ 2016-05-24T10:09:54+08:00 ] 127.0.0.1 /ph06/admin.php/login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000785s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000892s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.053962s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054094s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000827s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000807s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000709s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000862s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003417s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001056s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001113s ]
+
+[ 2016-05-24T10:09:54+08:00 ] 127.0.0.1 /ph06/admin.php/login/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000699s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000782s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+
+[ 2016-05-24T10:09:59+08:00 ] 127.0.0.1 /ph06/admin.php/login/dologin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000921s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001027s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.041150s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041255s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000679s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000972s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000726s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000713s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003247s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000968s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001025s ]
+
+[ 2016-05-24T10:10:00+08:00 ] 127.0.0.1 /ph06/admin.php/login/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000863s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+
+[ 2016-05-24T10:10:06+08:00 ] 127.0.0.1 /ph06/admin.php/login/dologin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000727s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000822s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004157s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004256s ]
+SQL: SHOW COLUMNS FROM `db_user` [ RunTime:0.059315s ]
+SQL: SELECT * FROM `db_user` WHERE ( `u_name` = 'admin' ) LIMIT 1   [ RunTime:0.000614s ]
+
+[ 2016-05-24T10:10:06+08:00 ] 127.0.0.1 /ph06/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028685s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028783s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000730s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000713s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000627s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000746s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002951s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000851s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000897s ]
+
+[ 2016-05-24T10:10:06+08:00 ] 127.0.0.1 /ph06/admin.php/index/sysMessage
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001350s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001474s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+NOTIC: [8] ob_end_clean() [<a href='ref.outcontrol'>ref.outcontrol</a>]: failed to delete buffer. No buffer to delete. F:\appserv\www\ph06\Admin\Common\common.php 第 86 行.
+NOTIC: [8] Undefined offset:  4 F:\appserv\www\ph06\Admin\Common\common.php 第 93 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant SERVER_SOFTWARE - assumed 'SERVER_SOFTWARE' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 31 行.
+NOTIC: [8] Use of undefined constant sys_mail - assumed 'sys_mail' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 32 行.
+NOTIC: [8] Use of undefined constant sysversion - assumed 'sysversion' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 35 行.
+NOTIC: [8] Use of undefined constant SERVER_ADDR - assumed 'SERVER_ADDR' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 36 行.
+NOTIC: [8] Use of undefined constant SERVER_PORT - assumed 'SERVER_PORT' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 39 行.
+NOTIC: [8] Use of undefined constant file_uploads - assumed 'file_uploads' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 40 行.
+NOTIC: [8] Use of undefined constant max_upload - assumed 'max_upload' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 44 行.
+NOTIC: [8] Use of undefined constant systemtime - assumed 'systemtime' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 45 行.
+NOTIC: [8] Use of undefined constant max_ex_time - assumed 'max_ex_time' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 48 行.
+NOTIC: [8] Use of undefined constant DOCUMENT_ROOT - assumed 'DOCUMENT_ROOT' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 49 行.
+NOTIC: [8] Use of undefined constant memory_user_limit - assumed 'memory_user_limit' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 52 行.
+NOTIC: [8] Use of undefined constant SCRIPT_FILENAME - assumed 'SCRIPT_FILENAME' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 53 行.
+NOTIC: [8] Use of undefined constant allow_url_fopen - assumed 'allow_url_fopen' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 56 行.
+NOTIC: [8] Use of undefined constant zendVersion - assumed 'zendVersion' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 57 行.
+NOTIC: [8] Use of undefined constant gdpic - assumed 'gdpic' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 61 行.
+NOTIC: [8] Use of undefined constant ifcookie - assumed 'ifcookie' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 62 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022023s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022115s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001019s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001079s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000649s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000741s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003675s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000881s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000926s ]
+
+[ 2016-05-24T10:10:08+08:00 ] 127.0.0.1 /ph06/admin.php/type/typeList
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001104s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001234s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+SQL: SHOW COLUMNS FROM `db_type` [ RunTime:0.001381s ]
+SQL: SELECT COUNT(t_id) AS tp_count FROM `db_type` LIMIT 1   [ RunTime:0.000202s ]
+SQL: SELECT * FROM `db_type` ORDER BY t_order ASC LIMIT 0,7   [ RunTime:0.000281s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014321s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014441s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000739s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000755s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000623s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000766s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003047s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000975s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001024s ]
+
+[ 2016-05-24T10:26:20+08:00 ] 127.0.0.1 /ph06/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000796s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008548s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008639s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001724s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000710s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000598s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000885s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004089s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001029s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001102s ]
+
+[ 2016-05-24T10:26:20+08:00 ] 127.0.0.1 /ph06/admin.php/index/sysMessage
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000908s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+NOTIC: [8] ob_end_clean() [<a href='ref.outcontrol'>ref.outcontrol</a>]: failed to delete buffer. No buffer to delete. F:\appserv\www\ph06\Admin\Common\common.php 第 86 行.
+NOTIC: [8] Undefined offset:  4 F:\appserv\www\ph06\Admin\Common\common.php 第 93 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant SERVER_SOFTWARE - assumed 'SERVER_SOFTWARE' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 31 行.
+NOTIC: [8] Use of undefined constant sys_mail - assumed 'sys_mail' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 32 行.
+NOTIC: [8] Use of undefined constant sysversion - assumed 'sysversion' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 35 行.
+NOTIC: [8] Use of undefined constant SERVER_ADDR - assumed 'SERVER_ADDR' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 36 行.
+NOTIC: [8] Use of undefined constant SERVER_PORT - assumed 'SERVER_PORT' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 39 行.
+NOTIC: [8] Use of undefined constant file_uploads - assumed 'file_uploads' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 40 行.
+NOTIC: [8] Use of undefined constant max_upload - assumed 'max_upload' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 44 行.
+NOTIC: [8] Use of undefined constant systemtime - assumed 'systemtime' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 45 行.
+NOTIC: [8] Use of undefined constant max_ex_time - assumed 'max_ex_time' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 48 行.
+NOTIC: [8] Use of undefined constant DOCUMENT_ROOT - assumed 'DOCUMENT_ROOT' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 49 行.
+NOTIC: [8] Use of undefined constant memory_user_limit - assumed 'memory_user_limit' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 52 行.
+NOTIC: [8] Use of undefined constant SCRIPT_FILENAME - assumed 'SCRIPT_FILENAME' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 53 行.
+NOTIC: [8] Use of undefined constant allow_url_fopen - assumed 'allow_url_fopen' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 56 行.
+NOTIC: [8] Use of undefined constant zendVersion - assumed 'zendVersion' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 57 行.
+NOTIC: [8] Use of undefined constant gdpic - assumed 'gdpic' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 61 行.
+NOTIC: [8] Use of undefined constant ifcookie - assumed 'ifcookie' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 62 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008507s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008607s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000801s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000846s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000649s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000737s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003199s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002841s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002925s ]
+
+[ 2016-05-24T10:26:21+08:00 ] 127.0.0.1 /ph06/admin.php/type/typeList
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000591s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+SQL: SHOW COLUMNS FROM `db_type` [ RunTime:0.001435s ]
+SQL: SELECT COUNT(t_id) AS tp_count FROM `db_type` LIMIT 1   [ RunTime:0.000604s ]
+SQL: SELECT * FROM `db_type` ORDER BY t_order ASC LIMIT 0,7   [ RunTime:0.000169s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008673s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008908s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000880s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000707s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000609s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000751s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003111s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000985s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001035s ]
+
+[ 2016-05-24T10:26:21+08:00 ] 127.0.0.1 /ph06/admin.php/type/addType
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000989s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001098s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000732s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.039020s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039118s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000739s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000680s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000616s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000701s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002865s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000853s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000917s ]
+
+[ 2016-05-24T10:51:57+08:00 ] 127.0.0.1 /ph06/admin.php/type/typeList
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000855s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000932s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000926s ]
+
+[ 2016-05-24T10:51:57+08:00 ] 127.0.0.1 /ph06/admin.php/login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000611s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000694s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007249s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007323s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000706s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000667s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000579s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001086s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003182s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000940s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001007s ]
+
+[ 2016-05-24T10:51:57+08:00 ] 127.0.0.1 /ph06/admin.php/login/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000582s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+
+[ 2016-05-24T13:23:07+08:00 ] 127.0.0.1 /ph06/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001093s ]
+
+[ 2016-05-24T13:23:07+08:00 ] 127.0.0.1 /ph06/admin.php/login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.018542s ]
+INFO: [ route_check ] --END-- [ RunTime:0.018687s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.083036s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083129s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001020s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000920s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000850s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000983s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003979s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001053s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001108s ]
+
+[ 2016-05-24T13:23:07+08:00 ] 127.0.0.1 /ph06/admin.php/login/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000576s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+

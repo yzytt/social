@@ -1,0 +1,78 @@
+<html>
+<head>
+   <meta http-equiv=Content-Type content="text/html; charset=utf-8" >
+   <title>动态浏览</title>
+   <link href="__PUBLIC__/css/main.css" rel="stylesheet" type="text/css" />
+  
+</head>
+<body>
+<div class="contain">
+   <div><a href="{:U(index)}"></a></div>
+	  <div class="menu">
+		<ul >
+		<volist name='t_list' id='vo'>
+			<li ><span>|&nbsp;&nbsp;&nbsp;<span><a href="{:U('newsList',array('id'=>$vo['id']))}">{$vo.name}</a></li>
+		</volist>
+		</ul>				
+   <if condition="$c_name neq null">
+		<ul id="loged">
+	  	   <li><a href="{:U('Login/loginOut')}" target="_self">退出登录</a></li>
+		   <li><a>欢迎您,{$c_name}</a></li>
+		</ul>	
+	<else />
+		<ul id="login">
+		   <li><a href="{:U('Register/register')}" target="_self">注册</a></li>
+		   <li><a href="{:U('Login/login')}" target="_self">登录</a></li>
+		</ul>
+	</if>				
+	</div>
+	<div class="line1" ></div>
+	<div class="main">
+	
+		<div style="clear: both;"></div>
+
+		<div class="details" >
+		<div style="font-size:28px;text-align:center">
+			
+			<switch name="typeid">
+                    <case value="1">体育</case>
+                    <case value="2">学习</case>
+                    <case value="3">生活</case>
+                    <case value="4">音乐</case>
+                    <default />公告
+            </switch>
+		</div>
+		<volist name='n_list' id='vo'>
+		 <table>
+		   <tr>
+			 <td>
+			   <a href="{:U('message',array('id'=>$vo['id']))}" title="{$vo.title}">{$vo.title}</a>
+			 </td>
+		   </tr>
+		   <tr> 
+			 <td >
+			   <font color="#8F8C89">日期：{$vo.addtime|date="Y-m-d",###}  </font>
+			 </td>
+	 	   </tr>
+		   <tr> 
+			 <td >{$vo.message|mb_substr=###,0,77,'utf-8'}...</td>
+		   </tr>
+		 </table>
+		 <div class='line2' ></div> 
+        </volist>
+          <div class="page" >
+					{$page}
+		  </div>	
+		</div>
+		</div>
+		<div class="footer">
+		<if condition="$c_name neq null">
+			
+			<a href="__ROOT__/admin.php?Index/index">管理后台</a>
+			
+		</if>
+			<div style='display:none'></div>
+		</div>
+	</div>
+</body>
+</html>

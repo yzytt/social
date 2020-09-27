@@ -1,0 +1,8 @@
+[ 2016-03-18T08:51:41+08:00 ] 127.0.0.1 /think/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001848s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001963s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001745s ]
+

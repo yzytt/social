@@ -1,0 +1,49 @@
+[ 2016-04-20T08:33:12+08:00 ] 127.0.0.1 /think/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001860s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001985s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001411s ]
+SQL: SHOW COLUMNS FROM `db_type` [ RunTime:0.112705s ]
+SQL: SELECT * FROM `db_type` WHERE ( t_status=1 ) ORDER BY t_order ASC  [ RunTime:0.001597s ]
+SQL: SHOW COLUMNS FROM `db_news` [ RunTime:0.039353s ]
+SQL: SELECT * FROM `db_news` WHERE ( n_type=13 and n_status=1 and n_position=2 ) ORDER BY n_addtime desc , n_nums desc LIMIT 15   [ RunTime:0.019187s ]
+SQL: SELECT * FROM `db_news` WHERE ( n_type=14 and n_status=1 and n_position=2 ) ORDER BY n_addtime desc , n_nums desc LIMIT 15   [ RunTime:0.000973s ]
+SQL: SELECT * FROM `db_news` WHERE ( n_type=12 and n_status=1 and n_position=2 ) ORDER BY n_addtime desc , n_nums desc LIMIT 15   [ RunTime:0.000831s ]
+SQL: SELECT * FROM `db_news` WHERE ( n_type=15 and n_status=1 and n_position=2 ) ORDER BY n_addtime desc , n_nums desc LIMIT 15   [ RunTime:0.000585s ]
+NOTIC: [8] Undefined index:  c_name F:\appserv\www\think\Index\Lib\Action\IndexAction.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant index - assumed 'index' F:\appserv\www\think\Index\Runtime\Cache\e9ca3d00a40c8a0e158f18fe2252bc69.php 第 11 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.083762s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083915s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000812s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000714s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000648s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001002s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003366s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002156s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002245s ]
+
+[ 2016-04-20T10:27:29+08:00 ] 127.0.0.1 /think/index.php/login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001010s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001108s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.065401s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065638s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001083s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001034s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000872s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001181s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004486s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001746s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001878s ]
+

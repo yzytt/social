@@ -1,0 +1,802 @@
+[ 2016-11-08T09:39:42+08:00 ] 127.0.0.1 /ph06/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+
+[ 2016-11-08T09:39:42+08:00 ] 127.0.0.1 /ph06/admin.php/login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.073471s ]
+INFO: [ route_check ] --END-- [ RunTime:0.073597s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001193s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.097989s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.098235s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000865s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000773s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000650s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000932s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003483s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001185s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001268s ]
+
+[ 2016-11-08T09:39:42+08:00 ] 127.0.0.1 /ph06/admin.php/login/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001999s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002189s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+
+[ 2016-11-08T09:39:48+08:00 ] 127.0.0.1 /ph06/admin.php/login/dologin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001862s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002069s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+SQL: SHOW COLUMNS FROM `db_user` [ RunTime:0.146350s ]
+SQL: SELECT * FROM `db_user` WHERE ( `u_name` = 'admin' ) LIMIT 1   [ RunTime:0.000826s ]
+
+[ 2016-11-08T09:39:48+08:00 ] 127.0.0.1 /ph06/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025914s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026005s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000609s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000654s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000496s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000617s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002507s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000719s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000764s ]
+
+[ 2016-11-08T09:39:49+08:00 ] 127.0.0.1 /ph06/admin.php/index/sysMessage
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000915s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001002s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+NOTIC: [8] ob_end_clean() [<a href='ref.outcontrol'>ref.outcontrol</a>]: failed to delete buffer. No buffer to delete. F:\appserv\www\ph06\Admin\Common\common.php 第 86 行.
+NOTIC: [8] Undefined offset:  4 F:\appserv\www\ph06\Admin\Common\common.php 第 93 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant SERVER_SOFTWARE - assumed 'SERVER_SOFTWARE' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 31 行.
+NOTIC: [8] Use of undefined constant sys_mail - assumed 'sys_mail' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 32 行.
+NOTIC: [8] Use of undefined constant sysversion - assumed 'sysversion' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 35 行.
+NOTIC: [8] Use of undefined constant SERVER_ADDR - assumed 'SERVER_ADDR' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 36 行.
+NOTIC: [8] Use of undefined constant SERVER_PORT - assumed 'SERVER_PORT' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 39 行.
+NOTIC: [8] Use of undefined constant file_uploads - assumed 'file_uploads' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 40 行.
+NOTIC: [8] Use of undefined constant max_upload - assumed 'max_upload' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 44 行.
+NOTIC: [8] Use of undefined constant systemtime - assumed 'systemtime' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 45 行.
+NOTIC: [8] Use of undefined constant max_ex_time - assumed 'max_ex_time' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 48 行.
+NOTIC: [8] Use of undefined constant DOCUMENT_ROOT - assumed 'DOCUMENT_ROOT' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 49 行.
+NOTIC: [8] Use of undefined constant memory_user_limit - assumed 'memory_user_limit' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 52 行.
+NOTIC: [8] Use of undefined constant SCRIPT_FILENAME - assumed 'SCRIPT_FILENAME' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 53 行.
+NOTIC: [8] Use of undefined constant allow_url_fopen - assumed 'allow_url_fopen' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 56 行.
+NOTIC: [8] Use of undefined constant zendVersion - assumed 'zendVersion' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 57 行.
+NOTIC: [8] Use of undefined constant gdpic - assumed 'gdpic' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 61 行.
+NOTIC: [8] Use of undefined constant ifcookie - assumed 'ifcookie' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 62 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.068170s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068265s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000557s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000445s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000343s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000876s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002403s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000691s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000750s ]
+
+[ 2016-11-08T09:39:53+08:00 ] 127.0.0.1 /ph06/admin.php/ad/addAd
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000882s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000974s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: vo F:\appserv\www\ph06\Admin\Runtime\Cache\b1d3cc3cfc4240a9051ce7534a16e404.php 第 55 行.
+NOTIC: [8] Undefined index:  fileurl F:\appserv\www\ph06\Admin\Runtime\Cache\b1d3cc3cfc4240a9051ce7534a16e404.php 第 105 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017215s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017338s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000311s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000348s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000203s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000348s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001363s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000487s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000546s ]
+
+[ 2016-11-08T09:40:02+08:00 ] 127.0.0.1 /ph06/admin.php/ad/add_picture
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000943s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001028s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+NOTIC: [2] md5_file(./Upload/c_picture/1478569202.jpg) [<a href='function.md5-file'>function.md5-file</a>]: failed to open stream: No such file or directory F:\appserv\www\ph06\ThinkPHP\Extend\Library\ORG\Net\UploadFile.class.php 第 203 行.
+
+[ 2016-11-08T10:37:40+08:00 ] 127.0.0.1 /ph06/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001289s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016520s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016756s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000701s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000596s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000547s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000691s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002668s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000829s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000875s ]
+
+[ 2016-11-08T10:37:40+08:00 ] 127.0.0.1 /ph06/admin.php/index/sysMessage
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003538s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003637s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+NOTIC: [8] ob_end_clean() [<a href='ref.outcontrol'>ref.outcontrol</a>]: failed to delete buffer. No buffer to delete. F:\appserv\www\ph06\Admin\Common\common.php 第 86 行.
+NOTIC: [8] Undefined offset:  4 F:\appserv\www\ph06\Admin\Common\common.php 第 93 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant SERVER_SOFTWARE - assumed 'SERVER_SOFTWARE' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 31 行.
+NOTIC: [8] Use of undefined constant sys_mail - assumed 'sys_mail' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 32 行.
+NOTIC: [8] Use of undefined constant sysversion - assumed 'sysversion' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 35 行.
+NOTIC: [8] Use of undefined constant SERVER_ADDR - assumed 'SERVER_ADDR' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 36 行.
+NOTIC: [8] Use of undefined constant SERVER_PORT - assumed 'SERVER_PORT' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 39 行.
+NOTIC: [8] Use of undefined constant file_uploads - assumed 'file_uploads' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 40 行.
+NOTIC: [8] Use of undefined constant max_upload - assumed 'max_upload' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 44 行.
+NOTIC: [8] Use of undefined constant systemtime - assumed 'systemtime' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 45 行.
+NOTIC: [8] Use of undefined constant max_ex_time - assumed 'max_ex_time' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 48 行.
+NOTIC: [8] Use of undefined constant DOCUMENT_ROOT - assumed 'DOCUMENT_ROOT' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 49 行.
+NOTIC: [8] Use of undefined constant memory_user_limit - assumed 'memory_user_limit' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 52 行.
+NOTIC: [8] Use of undefined constant SCRIPT_FILENAME - assumed 'SCRIPT_FILENAME' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 53 行.
+NOTIC: [8] Use of undefined constant allow_url_fopen - assumed 'allow_url_fopen' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 56 行.
+NOTIC: [8] Use of undefined constant zendVersion - assumed 'zendVersion' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 57 行.
+NOTIC: [8] Use of undefined constant gdpic - assumed 'gdpic' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 61 行.
+NOTIC: [8] Use of undefined constant ifcookie - assumed 'ifcookie' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 62 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028576s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028646s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000253s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000228s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000149s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000355s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001112s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000390s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000435s ]
+
+[ 2016-11-08T10:37:43+08:00 ] 127.0.0.1 /ph06/admin.php/news/newsList
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001489s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001591s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+SQL: SHOW COLUMNS FROM `db_news` [ RunTime:0.045027s ]
+SQL: SHOW COLUMNS FROM `db_type` [ RunTime:0.027472s ]
+SQL: SHOW COLUMNS FROM `db_user` [ RunTime:0.007315s ]
+SQL: SELECT COUNT(n_id) AS tp_count FROM db_news news LEFT JOIN db_type type ON news.n_type=type.t_id  JOIN db_user user ON news.n_author=user.u_id LIMIT 1   [ RunTime:0.027319s ]
+SQL: SELECT news.n_id AS n_id,news.n_title AS n_title,news.n_addtime AS n_addtime,news.n_nums AS n_nums,news.n_message AS n_message,news.n_status AS n_status,type.t_name AS n_type,user.u_name AS n_author FROM db_news news LEFT JOIN db_type type ON news.n_type=type.t_id  JOIN db_user user ON news.n_author=user.u_id ORDER BY news.n_addtime DESC LIMIT 0,17   [ RunTime:0.029320s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046467s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046598s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000287s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000225s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000143s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000299s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001075s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000420s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000472s ]
+
+[ 2016-11-08T10:37:43+08:00 ] 127.0.0.1 /ph06/admin.php/news/publishNews
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000897s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000974s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+SQL: SHOW COLUMNS FROM `db_type` [ RunTime:0.001125s ]
+SQL: SELECT * FROM `db_type` WHERE ( t_status=1 )  [ RunTime:0.000529s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.043837s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043923s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000259s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000225s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000142s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001020s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001426s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001509s ]
+
+[ 2016-11-08T10:37:45+08:00 ] 127.0.0.1 /ph06/admin.php/news/newsList
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001277s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001364s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+SQL: SHOW COLUMNS FROM `db_news` [ RunTime:0.001843s ]
+SQL: SHOW COLUMNS FROM `db_type` [ RunTime:0.001321s ]
+SQL: SHOW COLUMNS FROM `db_user` [ RunTime:0.001197s ]
+SQL: SELECT COUNT(n_id) AS tp_count FROM db_news news LEFT JOIN db_type type ON news.n_type=type.t_id  JOIN db_user user ON news.n_author=user.u_id LIMIT 1   [ RunTime:0.000449s ]
+SQL: SELECT news.n_id AS n_id,news.n_title AS n_title,news.n_addtime AS n_addtime,news.n_nums AS n_nums,news.n_message AS n_message,news.n_status AS n_status,type.t_name AS n_type,user.u_name AS n_author FROM db_news news LEFT JOIN db_type type ON news.n_type=type.t_id  JOIN db_user user ON news.n_author=user.u_id ORDER BY news.n_addtime DESC LIMIT 0,17   [ RunTime:0.001594s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009027s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009117s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000381s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000246s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000164s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000280s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001208s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000395s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000469s ]
+
+[ 2016-11-08T10:37:46+08:00 ] 127.0.0.1 /ph06/admin.php/ad/adList
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001125s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001214s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+SQL: SHOW COLUMNS FROM `db_ad` [ RunTime:0.026880s ]
+SQL: SELECT COUNT(a_id) AS tp_count FROM `db_ad` LIMIT 1   [ RunTime:0.000194s ]
+SQL: SELECT * FROM `db_ad` ORDER BY a_position ASC,a_order ASC LIMIT 0,7   [ RunTime:0.000378s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant a_position - assumed 'a_position' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant a_position - assumed 'a_position' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant a_position - assumed 'a_position' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant a_position - assumed 'a_position' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant a_position - assumed 'a_position' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant a_position - assumed 'a_position' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant a_position - assumed 'a_position' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant a_position - assumed 'a_position' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant a_position - assumed 'a_position' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant a_position - assumed 'a_position' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant a_position - assumed 'a_position' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant a_position - assumed 'a_position' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant a_position - assumed 'a_position' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant a_position - assumed 'a_position' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant a_position - assumed 'a_position' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant a_position - assumed 'a_position' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant a_position - assumed 'a_position' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant a_position - assumed 'a_position' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant a_position - assumed 'a_position' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant a_position - assumed 'a_position' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018869s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018955s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000300s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000272s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000187s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000363s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001266s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000485s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000537s ]
+
+[ 2016-11-08T10:37:47+08:00 ] 127.0.0.1 /ph06/admin.php/ad/addAd
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001810s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001948s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: vo F:\appserv\www\ph06\Admin\Runtime\Cache\b1d3cc3cfc4240a9051ce7534a16e404.php 第 56 行.
+NOTIC: [8] Undefined index:  fileurl F:\appserv\www\ph06\Admin\Runtime\Cache\b1d3cc3cfc4240a9051ce7534a16e404.php 第 106 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007760s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007868s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000249s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000221s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000145s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000268s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001004s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000364s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000406s ]
+
+[ 2016-11-08T10:37:51+08:00 ] 127.0.0.1 /ph06/admin.php/ad/add_picture
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001148s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001282s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+NOTIC: [2] md5_file(./Upload/c_picture/1478572671.jpg) [<a href='function.md5-file'>function.md5-file</a>]: failed to open stream: No such file or directory F:\appserv\www\ph06\ThinkPHP\Extend\Library\ORG\Net\UploadFile.class.php 第 203 行.
+
+[ 2016-11-08T10:38:12+08:00 ] 127.0.0.1 /ph06/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007832s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007902s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000458s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000425s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000343s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002078s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003453s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000615s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000663s ]
+
+[ 2016-11-08T10:38:12+08:00 ] 127.0.0.1 /ph06/admin.php/index/sysMessage
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000871s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000961s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000642s ]
+NOTIC: [8] ob_end_clean() [<a href='ref.outcontrol'>ref.outcontrol</a>]: failed to delete buffer. No buffer to delete. F:\appserv\www\ph06\Admin\Common\common.php 第 86 行.
+NOTIC: [8] Undefined offset:  4 F:\appserv\www\ph06\Admin\Common\common.php 第 93 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant SERVER_SOFTWARE - assumed 'SERVER_SOFTWARE' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 31 行.
+NOTIC: [8] Use of undefined constant sys_mail - assumed 'sys_mail' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 32 行.
+NOTIC: [8] Use of undefined constant sysversion - assumed 'sysversion' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 35 行.
+NOTIC: [8] Use of undefined constant SERVER_ADDR - assumed 'SERVER_ADDR' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 36 行.
+NOTIC: [8] Use of undefined constant SERVER_PORT - assumed 'SERVER_PORT' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 39 行.
+NOTIC: [8] Use of undefined constant file_uploads - assumed 'file_uploads' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 40 行.
+NOTIC: [8] Use of undefined constant max_upload - assumed 'max_upload' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 44 行.
+NOTIC: [8] Use of undefined constant systemtime - assumed 'systemtime' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 45 行.
+NOTIC: [8] Use of undefined constant max_ex_time - assumed 'max_ex_time' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 48 行.
+NOTIC: [8] Use of undefined constant DOCUMENT_ROOT - assumed 'DOCUMENT_ROOT' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 49 行.
+NOTIC: [8] Use of undefined constant memory_user_limit - assumed 'memory_user_limit' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 52 行.
+NOTIC: [8] Use of undefined constant SCRIPT_FILENAME - assumed 'SCRIPT_FILENAME' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 53 行.
+NOTIC: [8] Use of undefined constant allow_url_fopen - assumed 'allow_url_fopen' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 56 行.
+NOTIC: [8] Use of undefined constant zendVersion - assumed 'zendVersion' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 57 行.
+NOTIC: [8] Use of undefined constant gdpic - assumed 'gdpic' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 61 行.
+NOTIC: [8] Use of undefined constant ifcookie - assumed 'ifcookie' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 62 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007918s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007990s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000785s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000306s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000159s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000280s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001681s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000427s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000474s ]
+
+[ 2016-11-08T10:38:15+08:00 ] 127.0.0.1 /ph06/admin.php/ad/adList
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000699s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000782s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+SQL: SHOW COLUMNS FROM `db_ad` [ RunTime:0.001274s ]
+SQL: SELECT COUNT(a_id) AS tp_count FROM `db_ad` LIMIT 1   [ RunTime:0.000161s ]
+SQL: SELECT * FROM `db_ad` ORDER BY a_position ASC,a_order ASC LIMIT 0,7   [ RunTime:0.000164s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant a_position - assumed 'a_position' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant a_position - assumed 'a_position' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant a_position - assumed 'a_position' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant a_position - assumed 'a_position' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant a_position - assumed 'a_position' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant a_position - assumed 'a_position' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant a_position - assumed 'a_position' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant a_position - assumed 'a_position' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant a_position - assumed 'a_position' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant a_position - assumed 'a_position' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant a_position - assumed 'a_position' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant a_position - assumed 'a_position' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant a_position - assumed 'a_position' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant a_position - assumed 'a_position' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant a_position - assumed 'a_position' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant a_position - assumed 'a_position' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant a_position - assumed 'a_position' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant a_position - assumed 'a_position' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant a_position - assumed 'a_position' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant a_position - assumed 'a_position' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010075s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010146s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000242s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000385s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000150s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000296s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001194s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000420s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000468s ]
+
+[ 2016-11-08T10:38:15+08:00 ] 127.0.0.1 /ph06/admin.php/ad/addAd
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000687s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000770s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: vo F:\appserv\www\ph06\Admin\Runtime\Cache\b1d3cc3cfc4240a9051ce7534a16e404.php 第 56 行.
+NOTIC: [8] Undefined index:  fileurl F:\appserv\www\ph06\Admin\Runtime\Cache\b1d3cc3cfc4240a9051ce7534a16e404.php 第 106 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009021s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009106s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000391s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000283s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000180s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000349s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001356s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000455s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000506s ]
+
+[ 2016-11-08T10:38:19+08:00 ] 127.0.0.1 /ph06/admin.php/ad/add_picture
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000552s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+NOTIC: [2] md5_file(./Upload/c_picture/1478572699.jpg) [<a href='function.md5-file'>function.md5-file</a>]: failed to open stream: No such file or directory F:\appserv\www\ph06\ThinkPHP\Extend\Library\ORG\Net\UploadFile.class.php 第 203 行.
+
+[ 2016-11-08T10:38:37+08:00 ] 127.0.0.1 /ph06/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009997s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000568s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000473s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001236s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000532s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003113s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001005s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001055s ]
+
+[ 2016-11-08T10:38:38+08:00 ] 127.0.0.1 /ph06/admin.php/index/sysMessage
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000802s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000886s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001066s ]
+NOTIC: [8] ob_end_clean() [<a href='ref.outcontrol'>ref.outcontrol</a>]: failed to delete buffer. No buffer to delete. F:\appserv\www\ph06\Admin\Common\common.php 第 86 行.
+NOTIC: [8] Undefined offset:  4 F:\appserv\www\ph06\Admin\Common\common.php 第 93 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant SERVER_SOFTWARE - assumed 'SERVER_SOFTWARE' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 31 行.
+NOTIC: [8] Use of undefined constant sys_mail - assumed 'sys_mail' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 32 行.
+NOTIC: [8] Use of undefined constant sysversion - assumed 'sysversion' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 35 行.
+NOTIC: [8] Use of undefined constant SERVER_ADDR - assumed 'SERVER_ADDR' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 36 行.
+NOTIC: [8] Use of undefined constant SERVER_PORT - assumed 'SERVER_PORT' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 39 行.
+NOTIC: [8] Use of undefined constant file_uploads - assumed 'file_uploads' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 40 行.
+NOTIC: [8] Use of undefined constant max_upload - assumed 'max_upload' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 44 行.
+NOTIC: [8] Use of undefined constant systemtime - assumed 'systemtime' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 45 行.
+NOTIC: [8] Use of undefined constant max_ex_time - assumed 'max_ex_time' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 48 行.
+NOTIC: [8] Use of undefined constant DOCUMENT_ROOT - assumed 'DOCUMENT_ROOT' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 49 行.
+NOTIC: [8] Use of undefined constant memory_user_limit - assumed 'memory_user_limit' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 52 行.
+NOTIC: [8] Use of undefined constant SCRIPT_FILENAME - assumed 'SCRIPT_FILENAME' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 53 行.
+NOTIC: [8] Use of undefined constant allow_url_fopen - assumed 'allow_url_fopen' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 56 行.
+NOTIC: [8] Use of undefined constant zendVersion - assumed 'zendVersion' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 57 行.
+NOTIC: [8] Use of undefined constant gdpic - assumed 'gdpic' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 61 行.
+NOTIC: [8] Use of undefined constant ifcookie - assumed 'ifcookie' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 62 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007361s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007441s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000247s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000222s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000158s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000380s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001134s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000541s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000971s ]
+
+[ 2016-11-08T10:38:40+08:00 ] 127.0.0.1 /ph06/admin.php/ad/addAd
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000813s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000917s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: vo F:\appserv\www\ph06\Admin\Runtime\Cache\b1d3cc3cfc4240a9051ce7534a16e404.php 第 56 行.
+NOTIC: [8] Undefined index:  fileurl F:\appserv\www\ph06\Admin\Runtime\Cache\b1d3cc3cfc4240a9051ce7534a16e404.php 第 106 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010675s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010805s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000365s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000321s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000207s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001477s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000646s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000766s ]
+
+[ 2016-11-08T10:38:43+08:00 ] 127.0.0.1 /ph06/admin.php/ad/add_picture
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000541s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+NOTIC: [2] md5_file(./Upload/c_picture/1478572723.jpg) [<a href='function.md5-file'>function.md5-file</a>]: failed to open stream: No such file or directory F:\appserv\www\ph06\ThinkPHP\Extend\Library\ORG\Net\UploadFile.class.php 第 203 行.
+
+[ 2016-11-08T10:39:22+08:00 ] 127.0.0.1 /ph06/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010047s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010174s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000683s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000560s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000413s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000580s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002954s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000598s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000642s ]
+
+[ 2016-11-08T10:39:22+08:00 ] 127.0.0.1 /ph06/admin.php/index/sysMessage
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000822s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000922s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+NOTIC: [8] ob_end_clean() [<a href='ref.outcontrol'>ref.outcontrol</a>]: failed to delete buffer. No buffer to delete. F:\appserv\www\ph06\Admin\Common\common.php 第 86 行.
+NOTIC: [8] Undefined offset:  4 F:\appserv\www\ph06\Admin\Common\common.php 第 93 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant SERVER_SOFTWARE - assumed 'SERVER_SOFTWARE' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 31 行.
+NOTIC: [8] Use of undefined constant sys_mail - assumed 'sys_mail' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 32 行.
+NOTIC: [8] Use of undefined constant sysversion - assumed 'sysversion' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 35 行.
+NOTIC: [8] Use of undefined constant SERVER_ADDR - assumed 'SERVER_ADDR' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 36 行.
+NOTIC: [8] Use of undefined constant SERVER_PORT - assumed 'SERVER_PORT' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 39 行.
+NOTIC: [8] Use of undefined constant file_uploads - assumed 'file_uploads' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 40 行.
+NOTIC: [8] Use of undefined constant max_upload - assumed 'max_upload' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 44 行.
+NOTIC: [8] Use of undefined constant systemtime - assumed 'systemtime' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 45 行.
+NOTIC: [8] Use of undefined constant max_ex_time - assumed 'max_ex_time' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 48 行.
+NOTIC: [8] Use of undefined constant DOCUMENT_ROOT - assumed 'DOCUMENT_ROOT' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 49 行.
+NOTIC: [8] Use of undefined constant memory_user_limit - assumed 'memory_user_limit' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 52 行.
+NOTIC: [8] Use of undefined constant SCRIPT_FILENAME - assumed 'SCRIPT_FILENAME' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 53 行.
+NOTIC: [8] Use of undefined constant allow_url_fopen - assumed 'allow_url_fopen' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 56 行.
+NOTIC: [8] Use of undefined constant zendVersion - assumed 'zendVersion' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 57 行.
+NOTIC: [8] Use of undefined constant gdpic - assumed 'gdpic' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 61 行.
+NOTIC: [8] Use of undefined constant ifcookie - assumed 'ifcookie' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 62 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008587s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008674s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000405s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000339s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000173s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000288s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001368s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000411s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000460s ]
+
+[ 2016-11-08T10:39:25+08:00 ] 127.0.0.1 /ph06/admin.php/ad/adList
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000695s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000773s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+SQL: SHOW COLUMNS FROM `db_ad` [ RunTime:0.001270s ]
+SQL: SELECT COUNT(a_id) AS tp_count FROM `db_ad` LIMIT 1   [ RunTime:0.000212s ]
+SQL: SELECT * FROM `db_ad` ORDER BY a_position ASC,a_order ASC LIMIT 0,7   [ RunTime:0.000224s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant a_position - assumed 'a_position' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant a_position - assumed 'a_position' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant a_position - assumed 'a_position' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant a_position - assumed 'a_position' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant a_position - assumed 'a_position' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant a_position - assumed 'a_position' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant a_position - assumed 'a_position' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant a_position - assumed 'a_position' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant a_position - assumed 'a_position' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant a_position - assumed 'a_position' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant a_position - assumed 'a_position' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant a_position - assumed 'a_position' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant a_position - assumed 'a_position' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant a_position - assumed 'a_position' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant a_position - assumed 'a_position' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant a_position - assumed 'a_position' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant a_position - assumed 'a_position' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant a_position - assumed 'a_position' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant a_position - assumed 'a_position' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant a_position - assumed 'a_position' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\appserv\www\ph06\Admin\Runtime\Cache\7e1d5701d8fb68aee4dc0e44bf1258ab.php 第 36 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010630s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010705s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000264s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000228s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000145s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001020s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000389s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000431s ]
+
+[ 2016-11-08T10:39:25+08:00 ] 127.0.0.1 /ph06/admin.php/ad/addAd
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000563s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: vo F:\appserv\www\ph06\Admin\Runtime\Cache\b1d3cc3cfc4240a9051ce7534a16e404.php 第 57 行.
+NOTIC: [8] Undefined index:  fileurl F:\appserv\www\ph06\Admin\Runtime\Cache\b1d3cc3cfc4240a9051ce7534a16e404.php 第 107 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007044s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007124s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000249s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000220s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000145s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000267s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001006s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000387s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000429s ]
+
+[ 2016-11-08T10:39:43+08:00 ] 127.0.0.1 /ph06/admin.php/ad/addAd
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000746s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: vo F:\appserv\www\ph06\Admin\Runtime\Cache\b1d3cc3cfc4240a9051ce7534a16e404.php 第 57 行.
+NOTIC: [8] Undefined index:  fileurl F:\appserv\www\ph06\Admin\Runtime\Cache\b1d3cc3cfc4240a9051ce7534a16e404.php 第 107 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010766s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010859s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000324s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000304s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000193s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000384s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001365s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000564s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000620s ]
+
+[ 2016-11-08T10:53:35+08:00 ] 127.0.0.1 /ph06/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008384s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008476s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000695s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000714s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000497s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002713s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001143s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001208s ]
+
+[ 2016-11-08T10:53:35+08:00 ] 127.0.0.1 /ph06/admin.php/index/sysMessage
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000921s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001015s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+NOTIC: [8] ob_end_clean() [<a href='ref.outcontrol'>ref.outcontrol</a>]: failed to delete buffer. No buffer to delete. F:\appserv\www\ph06\Admin\Common\common.php 第 86 行.
+NOTIC: [8] Undefined offset:  4 F:\appserv\www\ph06\Admin\Common\common.php 第 93 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant SERVER_SOFTWARE - assumed 'SERVER_SOFTWARE' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 31 行.
+NOTIC: [8] Use of undefined constant sys_mail - assumed 'sys_mail' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 32 行.
+NOTIC: [8] Use of undefined constant sysversion - assumed 'sysversion' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 35 行.
+NOTIC: [8] Use of undefined constant SERVER_ADDR - assumed 'SERVER_ADDR' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 36 行.
+NOTIC: [8] Use of undefined constant SERVER_PORT - assumed 'SERVER_PORT' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 39 行.
+NOTIC: [8] Use of undefined constant file_uploads - assumed 'file_uploads' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 40 行.
+NOTIC: [8] Use of undefined constant max_upload - assumed 'max_upload' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 44 行.
+NOTIC: [8] Use of undefined constant systemtime - assumed 'systemtime' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 45 行.
+NOTIC: [8] Use of undefined constant max_ex_time - assumed 'max_ex_time' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 48 行.
+NOTIC: [8] Use of undefined constant DOCUMENT_ROOT - assumed 'DOCUMENT_ROOT' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 49 行.
+NOTIC: [8] Use of undefined constant memory_user_limit - assumed 'memory_user_limit' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 52 行.
+NOTIC: [8] Use of undefined constant SCRIPT_FILENAME - assumed 'SCRIPT_FILENAME' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 53 行.
+NOTIC: [8] Use of undefined constant allow_url_fopen - assumed 'allow_url_fopen' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 56 行.
+NOTIC: [8] Use of undefined constant zendVersion - assumed 'zendVersion' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 57 行.
+NOTIC: [8] Use of undefined constant gdpic - assumed 'gdpic' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 61 行.
+NOTIC: [8] Use of undefined constant ifcookie - assumed 'ifcookie' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 62 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008766s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008855s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000437s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000303s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000164s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000280s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001358s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000700s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000778s ]
+

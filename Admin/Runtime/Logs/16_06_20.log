@@ -1,0 +1,351 @@
+[ 2016-06-20T11:19:24+08:00 ] 127.0.0.1 /ph06/admin.php/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001237s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001343s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+
+[ 2016-06-20T11:19:24+08:00 ] 127.0.0.1 /ph06/admin.php/login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001600s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001783s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001150s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.036063s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036215s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000405s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000370s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000228s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001622s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000617s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000700s ]
+
+[ 2016-06-20T11:19:24+08:00 ] 127.0.0.1 /ph06/admin.php/login/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000566s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+
+[ 2016-06-20T11:39:26+08:00 ] 127.0.0.1 /ph06/admin.php/login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000802s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000883s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008132s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008252s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000451s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000445s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000366s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000490s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001892s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000644s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000692s ]
+
+[ 2016-06-20T11:39:26+08:00 ] 127.0.0.1 /ph06/admin.php/login/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000552s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+
+[ 2016-06-20T11:39:32+08:00 ] 127.0.0.1 /ph06/admin.php/login/dologin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000564s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+SQL: SHOW COLUMNS FROM `db_user` [ RunTime:0.144532s ]
+SQL: SELECT * FROM `db_user` WHERE ( `u_name` = 'admin' ) LIMIT 1   [ RunTime:0.004228s ]
+
+[ 2016-06-20T11:39:32+08:00 ] 127.0.0.1 /ph06/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018245s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018343s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000232s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000236s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000145s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001005s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000368s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000411s ]
+
+[ 2016-06-20T11:39:32+08:00 ] 127.0.0.1 /ph06/admin.php/index/sysMessage
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000560s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+NOTIC: [8] ob_end_clean() [<a href='ref.outcontrol'>ref.outcontrol</a>]: failed to delete buffer. No buffer to delete. F:\appserv\www\ph06\Admin\Common\common.php 第 86 行.
+NOTIC: [8] Undefined offset:  4 F:\appserv\www\ph06\Admin\Common\common.php 第 93 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant SERVER_SOFTWARE - assumed 'SERVER_SOFTWARE' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 31 行.
+NOTIC: [8] Use of undefined constant sys_mail - assumed 'sys_mail' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 32 行.
+NOTIC: [8] Use of undefined constant sysversion - assumed 'sysversion' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 35 行.
+NOTIC: [8] Use of undefined constant SERVER_ADDR - assumed 'SERVER_ADDR' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 36 行.
+NOTIC: [8] Use of undefined constant SERVER_PORT - assumed 'SERVER_PORT' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 39 行.
+NOTIC: [8] Use of undefined constant file_uploads - assumed 'file_uploads' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 40 行.
+NOTIC: [8] Use of undefined constant max_upload - assumed 'max_upload' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 44 行.
+NOTIC: [8] Use of undefined constant systemtime - assumed 'systemtime' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 45 行.
+NOTIC: [8] Use of undefined constant max_ex_time - assumed 'max_ex_time' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 48 行.
+NOTIC: [8] Use of undefined constant DOCUMENT_ROOT - assumed 'DOCUMENT_ROOT' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 49 行.
+NOTIC: [8] Use of undefined constant memory_user_limit - assumed 'memory_user_limit' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 52 行.
+NOTIC: [8] Use of undefined constant SCRIPT_FILENAME - assumed 'SCRIPT_FILENAME' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 53 行.
+NOTIC: [8] Use of undefined constant allow_url_fopen - assumed 'allow_url_fopen' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 56 行.
+NOTIC: [8] Use of undefined constant zendVersion - assumed 'zendVersion' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 57 行.
+NOTIC: [8] Use of undefined constant gdpic - assumed 'gdpic' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 61 行.
+NOTIC: [8] Use of undefined constant ifcookie - assumed 'ifcookie' F:\appserv\www\ph06\Admin\Runtime\Cache\e6796ad2723a37f48d2e8952f0a9c1c5.php 第 62 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.043862s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044012s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000307s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000250s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000159s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000305s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001162s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000404s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000459s ]
+
+[ 2016-06-20T11:39:34+08:00 ] 127.0.0.1 /ph06/admin.php/type/typeList
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000926s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001037s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+SQL: SHOW COLUMNS FROM `db_type` [ RunTime:0.002350s ]
+SQL: SELECT COUNT(t_id) AS tp_count FROM `db_type` LIMIT 1   [ RunTime:0.030050s ]
+SQL: SELECT * FROM `db_type` ORDER BY t_order ASC LIMIT 0,7   [ RunTime:0.000441s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029999s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030143s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000473s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000470s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000315s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000638s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002240s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000791s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000885s ]
+
+[ 2016-06-20T11:39:36+08:00 ] 127.0.0.1 /ph06/admin.php/news/newsList
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001390s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001557s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+SQL: SHOW COLUMNS FROM `db_news` [ RunTime:0.001984s ]
+SQL: SHOW COLUMNS FROM `db_type` [ RunTime:0.001383s ]
+SQL: SHOW COLUMNS FROM `db_user` [ RunTime:0.001343s ]
+SQL: SELECT COUNT(n_id) AS tp_count FROM db_news news LEFT JOIN db_type type ON news.n_type=type.t_id  JOIN db_user user ON news.n_author=user.u_id LIMIT 1   [ RunTime:0.022780s ]
+SQL: SELECT news.n_id AS n_id,news.n_title AS n_title,news.n_addtime AS n_addtime,news.n_nums AS n_nums,news.n_message AS n_message,news.n_status AS n_status,type.t_name AS n_type,user.u_name AS n_author FROM db_news news LEFT JOIN db_type type ON news.n_type=type.t_id  JOIN db_user user ON news.n_author=user.u_id ORDER BY news.n_addtime DESC LIMIT 0,17   [ RunTime:0.002404s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030216s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030335s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000453s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000352s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000221s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000487s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001717s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000861s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000973s ]
+
+[ 2016-06-20T11:39:37+08:00 ] 127.0.0.1 /ph06/admin.php/news/publishNews
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000926s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001033s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+SQL: SHOW COLUMNS FROM `db_type` [ RunTime:0.001642s ]
+SQL: SELECT * FROM `db_type` WHERE ( t_status=1 )  [ RunTime:0.000324s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.048244s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048422s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000782s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000779s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000501s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000939s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003424s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001354s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001505s ]
+
+[ 2016-06-20T11:39:38+08:00 ] 127.0.0.1 /ph06/admin.php/news/newsList
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001352s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001503s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `db_news` [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `db_type` [ RunTime:0.001283s ]
+SQL: SHOW COLUMNS FROM `db_user` [ RunTime:0.001090s ]
+SQL: SELECT COUNT(n_id) AS tp_count FROM db_news news LEFT JOIN db_type type ON news.n_type=type.t_id  JOIN db_user user ON news.n_author=user.u_id LIMIT 1   [ RunTime:0.000410s ]
+SQL: SELECT news.n_id AS n_id,news.n_title AS n_title,news.n_addtime AS n_addtime,news.n_nums AS n_nums,news.n_message AS n_message,news.n_status AS n_status,type.t_name AS n_type,user.u_name AS n_author FROM db_news news LEFT JOIN db_type type ON news.n_type=type.t_id  JOIN db_user user ON news.n_author=user.u_id ORDER BY news.n_addtime DESC LIMIT 0,17   [ RunTime:0.001694s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010015s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010088s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000251s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000220s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000142s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001005s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001323s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001393s ]
+
+[ 2016-06-20T11:39:40+08:00 ] 127.0.0.1 /ph06/admin.php/news/publishNews
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001137s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001276s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+SQL: SHOW COLUMNS FROM `db_type` [ RunTime:0.001050s ]
+SQL: SELECT * FROM `db_type` WHERE ( t_status=1 )  [ RunTime:0.000177s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006167s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006255s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000322s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000314s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000176s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001244s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000388s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000431s ]
+
+[ 2016-06-20T11:39:42+08:00 ] 127.0.0.1 /ph06/admin.php/news/publishNews
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000809s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000991s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+SQL: SHOW COLUMNS FROM `db_type` [ RunTime:0.001717s ]
+SQL: SELECT * FROM `db_type` WHERE ( t_status=1 )  [ RunTime:0.000530s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008658s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008754s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000323s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000320s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000203s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000380s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001399s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000546s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000608s ]
+
+[ 2016-06-20T11:39:43+08:00 ] 127.0.0.1 /ph06/admin.php/news/newsList
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000914s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001024s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+SQL: SHOW COLUMNS FROM `db_news` [ RunTime:0.001771s ]
+SQL: SHOW COLUMNS FROM `db_type` [ RunTime:0.001456s ]
+SQL: SHOW COLUMNS FROM `db_user` [ RunTime:0.001413s ]
+SQL: SELECT COUNT(n_id) AS tp_count FROM db_news news LEFT JOIN db_type type ON news.n_type=type.t_id  JOIN db_user user ON news.n_author=user.u_id LIMIT 1   [ RunTime:0.000769s ]
+SQL: SELECT news.n_id AS n_id,news.n_title AS n_title,news.n_addtime AS n_addtime,news.n_nums AS n_nums,news.n_message AS n_message,news.n_status AS n_status,type.t_name AS n_type,user.u_name AS n_author FROM db_news news LEFT JOIN db_type type ON news.n_type=type.t_id  JOIN db_user user ON news.n_author=user.u_id ORDER BY news.n_addtime DESC LIMIT 0,17   [ RunTime:0.002255s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008263s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008348s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000256s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000224s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000141s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001024s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000436s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000502s ]
+
+[ 2016-06-20T11:41:02+08:00 ] 127.0.0.1 /ph06/admin.php/news/updateNews/n_id/13
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001566s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001765s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001057s ]
+SQL: SHOW COLUMNS FROM `db_news` [ RunTime:0.001369s ]
+SQL: SHOW COLUMNS FROM `db_type` [ RunTime:0.001175s ]
+SQL: SELECT * FROM `db_news` WHERE ( `n_id` = 13 ) LIMIT 1   [ RunTime:0.000234s ]
+SQL: SELECT * FROM `db_type`  [ RunTime:0.000125s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  n_position F:\appserv\www\ph06\Admin\Runtime\Cache\a21fae484a2cfc39b06ffa5112a25a5a.php 第 38 行.
+NOTIC: [8] Use of undefined constant t_id - assumed 't_id' F:\appserv\www\ph06\Admin\Runtime\Cache\a21fae484a2cfc39b06ffa5112a25a5a.php 第 50 行.
+NOTIC: [8] Use of undefined constant n_type - assumed 'n_type' F:\appserv\www\ph06\Admin\Runtime\Cache\a21fae484a2cfc39b06ffa5112a25a5a.php 第 50 行.
+NOTIC: [8] Use of undefined constant t_id - assumed 't_id' F:\appserv\www\ph06\Admin\Runtime\Cache\a21fae484a2cfc39b06ffa5112a25a5a.php 第 50 行.
+NOTIC: [8] Use of undefined constant n_type - assumed 'n_type' F:\appserv\www\ph06\Admin\Runtime\Cache\a21fae484a2cfc39b06ffa5112a25a5a.php 第 50 行.
+NOTIC: [8] Use of undefined constant t_id - assumed 't_id' F:\appserv\www\ph06\Admin\Runtime\Cache\a21fae484a2cfc39b06ffa5112a25a5a.php 第 50 行.
+NOTIC: [8] Use of undefined constant n_type - assumed 'n_type' F:\appserv\www\ph06\Admin\Runtime\Cache\a21fae484a2cfc39b06ffa5112a25a5a.php 第 50 行.
+NOTIC: [8] Use of undefined constant t_id - assumed 't_id' F:\appserv\www\ph06\Admin\Runtime\Cache\a21fae484a2cfc39b06ffa5112a25a5a.php 第 50 行.
+NOTIC: [8] Use of undefined constant n_type - assumed 'n_type' F:\appserv\www\ph06\Admin\Runtime\Cache\a21fae484a2cfc39b06ffa5112a25a5a.php 第 50 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.053823s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053954s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000729s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000700s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000446s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003411s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001150s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001290s ]
+
+[ 2016-06-20T11:56:44+08:00 ] 127.0.0.1 /ph06/admin.php/news/newsList
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002999s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003147s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+SQL: SHOW COLUMNS FROM `db_news` [ RunTime:0.001300s ]
+SQL: SHOW COLUMNS FROM `db_type` [ RunTime:0.001031s ]
+SQL: SHOW COLUMNS FROM `db_user` [ RunTime:0.001276s ]
+SQL: SELECT COUNT(n_id) AS tp_count FROM db_news news LEFT JOIN db_type type ON news.n_type=type.t_id  JOIN db_user user ON news.n_author=user.u_id LIMIT 1   [ RunTime:0.000302s ]
+SQL: SELECT news.n_id AS n_id,news.n_title AS n_title,news.n_addtime AS n_addtime,news.n_nums AS n_nums,news.n_message AS n_message,news.n_status AS n_status,type.t_name AS n_type,user.u_name AS n_author FROM db_news news LEFT JOIN db_type type ON news.n_type=type.t_id  JOIN db_user user ON news.n_author=user.u_id ORDER BY news.n_addtime DESC LIMIT 0,17   [ RunTime:0.001416s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009070s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000459s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000416s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000348s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000588s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001954s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001592s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001661s ]
+
